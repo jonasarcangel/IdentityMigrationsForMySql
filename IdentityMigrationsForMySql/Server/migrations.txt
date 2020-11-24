@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add InitialCreate --context SqliteDbContext --output-dir Migrations/Sqlite --configuration DebugEf
+dotnet ef migrations add InitialCreate --context MySqlDbContext --output-dir Migrations/MySql --configuration DebugEf
