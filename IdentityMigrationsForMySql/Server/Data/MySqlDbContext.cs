@@ -16,7 +16,7 @@ namespace IdentityMigrationsForMySql.Server.Data
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
 #if DEBUG_EF
-            options.UseMYSql("Server=");
+            options.UseMySql("Server=");
 #endif
         }
     }
